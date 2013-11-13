@@ -1,0 +1,28 @@
+.entryWrapper {
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  min-height: 200px;
+  padding: 5px;
+}
+.entryWrapper .votes {
+  width: auto;
+  height: 20px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+}
+.entryWrapper .votes .ups {
+  background: green;
+  padding: 5px;
+  display: none;
+}
+.entryWrapper .votes .downs {
+  padding: 5px;
+  background: red;
+  display: none;
+}
+.entryWrapper:hover .ups {
+  display: block;
+}
+.entryWrapper:hover .downs {
+  display: block;
+}
